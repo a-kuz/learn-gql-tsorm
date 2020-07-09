@@ -1,0 +1,7 @@
+{
+  "name": "learn-gql-tsorm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kuznecov_as <aleksandr.kuznetcov@coolclever.ru>",
+  "license": "MIT"
+}
