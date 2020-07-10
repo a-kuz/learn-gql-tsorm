@@ -1,15 +1,23 @@
 {
-  "name": "learn-gql-tsorm",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "kuznecov_as <aleksandr.kuznetcov@coolclever.ru>",
-  "license": "MIT",
-  "dependencies": {
-    "reflect-metadata": "^0.1.13",
-    "type-graphql": "^1.0.0-rc.3"
-  },
-  "devDependencies": {
-    "@types/node": "^14.0.20",
-    "typescript": "^3.9.6"
-  }
+   "name": "learn-gql-tsorm",
+   "version": "0.0.1",
+   "main": "src/index.ts",
+   "author": "kuznecov_as <aleksandr.kuznetcov@coolclever.ru>",
+   "license": "MIT",
+   "private": true,
+   "dependencies": {
+      "mysql": "^2.14.1",
+      "reflect-metadata": "^0.1.10",
+      "type-graphql": "^1.0.0-rc.3",
+      "typeorm": "0.2.25"
+   },
+   "devDependencies": {
+      "@types/mysql": "^2.15.14",
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
 }
