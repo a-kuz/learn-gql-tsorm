@@ -4,7 +4,7 @@
    "port": 3306,
    "username": "root",
    "password": "toor",
-   "database": "learn-gql-tsorm",
+   "database": "learn_gql_tsorm",
    "synchronize": true,
    "logging": true,
    "entities": [
